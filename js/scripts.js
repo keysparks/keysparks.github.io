@@ -7,5 +7,5 @@
 // Use this file to add JavaScript to your project
 function al() {
     var email = document.getElementById("emailid").value;
-    mootrack('identify', 'firstname@firstname.com', 'fromkey');
+    mootrack('identify', 'firstname@firstname.com', 'keysparks');
 };
