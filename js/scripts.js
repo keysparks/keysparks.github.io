@@ -5,3 +5,7 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+function al() {
+    var email = document.getElementById("emailid").value;
+    mootrack('identify', email, 'testname');
+};
