@@ -10029,6 +10029,12 @@ video {
   z-index: 0;
 }
 
+.submit-button:disabled {
+  background: #999;
+  color: #555;
+  cursor: not-allowed;
+}
+
 @media (pointer: coarse) and (hover: none) {
   body {
     background: url("../assets/img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
